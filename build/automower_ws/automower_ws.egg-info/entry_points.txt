@@ -1,0 +1,4 @@
+[console_scripts]
+new_node = ros_automow_py.new_node:main
+second_node = ros_automow_py.second_node:main
+

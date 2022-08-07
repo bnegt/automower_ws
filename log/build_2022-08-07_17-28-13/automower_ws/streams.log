@@ -1,0 +1,33 @@
+[0.802s] Invoking command in '/home/bengt/automower_ws/build/automower_ws': PYTHONPATH=/home/bengt/automower_ws/install/automower_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/bengt/automower_ws/install/automower_ws --editable --build-directory /home/bengt/automower_ws/build/automower_ws/build --no-deps install_data --install-dir /home/bengt/automower_ws/install/automower_ws
+[1.141s] running develop
+[1.141s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.142s]   warnings.warn(
+[1.144s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.144s]   warnings.warn(
+[1.220s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.220s]   warnings.warn(
+[1.220s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.220s]   warnings.warn(
+[1.362s] running egg_info
+[1.362s] creating automower_ws.egg-info
+[1.363s] writing automower_ws.egg-info/PKG-INFO
+[1.363s] writing dependency_links to automower_ws.egg-info/dependency_links.txt
+[1.363s] writing entry points to automower_ws.egg-info/entry_points.txt
+[1.364s] writing requirements to automower_ws.egg-info/requires.txt
+[1.364s] writing top-level names to automower_ws.egg-info/top_level.txt
+[1.364s] writing manifest file 'automower_ws.egg-info/SOURCES.txt'
+[1.366s] reading manifest file 'automower_ws.egg-info/SOURCES.txt'
+[1.367s] writing manifest file 'automower_ws.egg-info/SOURCES.txt'
+[1.369s] running build_ext
+[1.369s] Creating /home/bengt/automower_ws/install/automower_ws/lib/python3.10/site-packages/automower-ws.egg-link (link to .)
+[1.370s] Installing new_node script to /home/bengt/automower_ws/install/automower_ws/lib/automower_ws
+[1.371s] Installing second_node script to /home/bengt/automower_ws/install/automower_ws/lib/automower_ws
+[1.371s] 
+[1.371s] Installed /home/bengt/automower_ws/build/automower_ws
+[1.371s] running install_data
+[1.372s] creating /home/bengt/automower_ws/install/automower_ws/share/ament_index
+[1.372s] creating /home/bengt/automower_ws/install/automower_ws/share/ament_index/resource_index
+[1.372s] creating /home/bengt/automower_ws/install/automower_ws/share/ament_index/resource_index/packages
+[1.372s] copying resource/automower_ws -> /home/bengt/automower_ws/install/automower_ws/share/ament_index/resource_index/packages
+[1.372s] copying package.xml -> /home/bengt/automower_ws/install/automower_ws/share/automower_ws
+[1.403s] Invoked command in '/home/bengt/automower_ws/build/automower_ws' returned '0': PYTHONPATH=/home/bengt/automower_ws/install/automower_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/bengt/automower_ws/install/automower_ws --editable --build-directory /home/bengt/automower_ws/build/automower_ws/build --no-deps install_data --install-dir /home/bengt/automower_ws/install/automower_ws

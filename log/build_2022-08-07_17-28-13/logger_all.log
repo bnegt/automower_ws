@@ -1,0 +1,95 @@
+[0.427s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.427s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f055dc0e530>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f055e5980a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f055e5980a0>>)
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.468s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bengt/automower_ws'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.495s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_python' and name 'automower_ws'
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.495s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.527s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.530s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/bengt/ros_automow_py/install
+[0.531s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/bengt/demoBot/articubot_one/install
+[0.534s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 341 installed packages in /opt/ros/humble
+[0.538s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'automower_ws' build argument 'cmake_args' from command line to 'None'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'automower_ws' build argument 'cmake_target' from command line to 'None'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'automower_ws' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'automower_ws' build argument 'cmake_clean_cache' from command line to 'False'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'automower_ws' build argument 'cmake_clean_first' from command line to 'False'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'automower_ws' build argument 'cmake_force_configure' from command line to 'False'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'automower_ws' build argument 'ament_cmake_args' from command line to 'None'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'automower_ws' build argument 'catkin_cmake_args' from command line to 'None'
+[0.639s] Level 5:colcon.colcon_core.verb:set package 'automower_ws' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.640s] DEBUG:colcon.colcon_core.verb:Building package 'automower_ws' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bengt/automower_ws/build/automower_ws', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bengt/automower_ws/install/automower_ws', 'merge_install': False, 'path': '/home/bengt/automower_ws', 'symlink_install': True, 'test_result_base': None}
+[0.641s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.646s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.647s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bengt/automower_ws' with build type 'ament_python'
+[0.647s] Level 1:colcon.colcon_core.shell:create_environment_hook('automower_ws', 'ament_prefix_path')
+[0.652s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/hook/ament_prefix_path.ps1'
+[0.653s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/hook/ament_prefix_path.dsv'
+[0.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/hook/ament_prefix_path.sh'
+[0.657s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.657s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.012s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bengt/automower_ws'
+[1.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bengt/automower_ws/build/automower_ws': PYTHONPATH=/home/bengt/automower_ws/install/automower_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/bengt/automower_ws/install/automower_ws --editable --build-directory /home/bengt/automower_ws/build/automower_ws/build --no-deps install_data --install-dir /home/bengt/automower_ws/install/automower_ws
+[2.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('automower_ws', 'pythonpath_develop')
+[2.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bengt/automower_ws/build/automower_ws/share/automower_ws/hook/pythonpath_develop.ps1'
+[2.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bengt/automower_ws/build/automower_ws' returned '0': PYTHONPATH=/home/bengt/automower_ws/install/automower_ws/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/bengt/automower_ws/install/automower_ws --editable --build-directory /home/bengt/automower_ws/build/automower_ws/build --no-deps install_data --install-dir /home/bengt/automower_ws/install/automower_ws
+[2.052s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bengt/automower_ws/build/automower_ws/share/automower_ws/hook/pythonpath_develop.dsv'
+[2.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bengt/automower_ws/build/automower_ws/share/automower_ws/hook/pythonpath_develop.sh'
+[2.059s] Level 1:colcon.colcon_core.environment:checking '/home/bengt/automower_ws/install/automower_ws' for CMake module files
+[2.059s] Level 1:colcon.colcon_core.environment:checking '/home/bengt/automower_ws/install/automower_ws' for CMake config files
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/bengt/automower_ws/install/automower_ws/lib'
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/bengt/automower_ws/install/automower_ws/bin'
+[2.060s] Level 1:colcon.colcon_core.environment:checking '/home/bengt/automower_ws/install/automower_ws/lib/pkgconfig/automower_ws.pc'
+[2.061s] Level 1:colcon.colcon_core.environment:checking '/home/bengt/automower_ws/install/automower_ws/lib/python3.10/site-packages'
+[2.061s] Level 1:colcon.colcon_core.shell:create_environment_hook('automower_ws', 'pythonpath')
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/hook/pythonpath.ps1'
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/hook/pythonpath.dsv'
+[2.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/hook/pythonpath.sh'
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/bengt/automower_ws/install/automower_ws/bin'
+[2.064s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(automower_ws)
+[2.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/package.ps1'
+[2.067s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/package.dsv'
+[2.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/package.sh'
+[2.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/package.bash'
+[2.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/bengt/automower_ws/install/automower_ws/share/automower_ws/package.zsh'
+[2.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bengt/automower_ws/install/automower_ws/share/colcon-core/packages/automower_ws)
+[2.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.071s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.071s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.079s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.079s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.079s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.094s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.097s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bengt/automower_ws/install/local_setup.ps1'
+[2.098s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bengt/automower_ws/install/_local_setup_util_ps1.py'
+[2.100s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bengt/automower_ws/install/setup.ps1'
+[2.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bengt/automower_ws/install/local_setup.sh'
+[2.103s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bengt/automower_ws/install/_local_setup_util_sh.py'
+[2.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bengt/automower_ws/install/setup.sh'
+[2.106s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bengt/automower_ws/install/local_setup.bash'
+[2.109s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bengt/automower_ws/install/setup.bash'
+[2.111s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bengt/automower_ws/install/local_setup.zsh'
+[2.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bengt/automower_ws/install/setup.zsh'

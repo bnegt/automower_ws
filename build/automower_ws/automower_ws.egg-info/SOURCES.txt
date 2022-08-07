@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+automower_ws/__init__.py
+automower_ws/new_node.py
+automower_ws/second_node.py
+automower_ws.egg-info/PKG-INFO
+automower_ws.egg-info/SOURCES.txt
+automower_ws.egg-info/dependency_links.txt
+automower_ws.egg-info/entry_points.txt
+automower_ws.egg-info/requires.txt
+automower_ws.egg-info/top_level.txt
+automower_ws.egg-info/zip-safe
+launch/rsp.launch.py
+launch/test.launch.py
+resource/automower_ws

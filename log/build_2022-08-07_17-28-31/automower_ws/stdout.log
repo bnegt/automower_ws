@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing automower_ws.egg-info/PKG-INFO
+writing dependency_links to automower_ws.egg-info/dependency_links.txt
+writing entry points to automower_ws.egg-info/entry_points.txt
+writing requirements to automower_ws.egg-info/requires.txt
+writing top-level names to automower_ws.egg-info/top_level.txt
+reading manifest file 'automower_ws.egg-info/SOURCES.txt'
+writing manifest file 'automower_ws.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/bengt/automower_ws/install/automower_ws/lib/python3.10/site-packages/automower-ws.egg-link (link to .)
+Installing new_node script to /home/bengt/automower_ws/install/automower_ws/lib/automower_ws
+Installing second_node script to /home/bengt/automower_ws/install/automower_ws/lib/automower_ws
+
+Installed /home/bengt/automower_ws/build/automower_ws
+running install_data
+copying launch/rsp.launch.py -> /home/bengt/automower_ws/install/automower_ws/share/automower_ws
+copying launch/test.launch.py -> /home/bengt/automower_ws/install/automower_ws/share/automower_ws
